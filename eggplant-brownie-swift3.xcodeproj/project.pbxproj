@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2314E59E1DFDC0C600890BF0 /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2314E59C1DFDC0C600890BF0 /* NewItemViewController.xib */; };
+		2314E5A21DFDC19A00890BF0 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2314E5A11DFDC19A00890BF0 /* NewItemViewController.swift */; };
+		2314E5A41DFDE4D100890BF0 /* AddItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2314E5A31DFDE4D100890BF0 /* AddItemDelegate.swift */; };
+		231657521DF79E1600CA7C00 /* AddMealDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231657511DF79E1600CA7C00 /* AddMealDelegate.swift */; };
+		231720951DEFA57E00302C8F /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231720941DEFA57E00302C8F /* MealTableViewController.swift */; };
+		23197FE01E0DE72300EC55D0 /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23197FDF1E0DE72300EC55D0 /* Dao.swift */; };
+		2333A71A1E00C8A00053FF61 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333A7191E00C8A00053FF61 /* Alert.swift */; };
+		23BA5B0C1E0744F400EC67B7 /* RemoveMealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BA5B0B1E0744F400EC67B7 /* RemoveMealController.swift */; };
 		23BCBEBC1DDD28D600212E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCBEBB1DDD28D600212E9D /* AppDelegate.swift */; };
-		23BCBEBE1DDD28D600212E9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCBEBD1DDD28D600212E9D /* ViewController.swift */; };
-		23BCBEC11DDD28D600212E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BCBEBF1DDD28D600212E9D /* Main.storyboard */; };
 		23BCBEC31DDD28D600212E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BCBEC21DDD28D600212E9D /* Assets.xcassets */; };
 		23BCBEC61DDD28D600212E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BCBEC41DDD28D600212E9D /* LaunchScreen.storyboard */; };
 		23BCBED11DDD28D600212E9D /* eggplant_brownie_swift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCBED01DDD28D600212E9D /* eggplant_brownie_swift3Tests.swift */; };
 		23BCBEDC1DDD28D600212E9D /* eggplant_brownie_swift3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCBEDB1DDD28D600212E9D /* eggplant_brownie_swift3UITests.swift */; };
+		23BCBEF01DDD2A6900212E9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCBEEF1DDD2A6900212E9D /* ViewController.swift */; };
+		23BCBEF21DDD2CF700212E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BCBEF11DDD2CF700212E9D /* Main.storyboard */; };
+		23BCBEF41DDD323C00212E9D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCBEF31DDD323C00212E9D /* Meal.swift */; };
+		23BCBEF61DDD334000212E9D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCBEF51DDD334000212E9D /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2314E59C1DFDC0C600890BF0 /* NewItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
+		2314E5A11DFDC19A00890BF0 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		2314E5A31DFDE4D100890BF0 /* AddItemDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemDelegate.swift; sourceTree = "<group>"; };
+		231657511DF79E1600CA7C00 /* AddMealDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMealDelegate.swift; sourceTree = "<group>"; };
+		231720941DEFA57E00302C8F /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		23197FDF1E0DE72300EC55D0 /* Dao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
+		2333A7191E00C8A00053FF61 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		23BA5B0B1E0744F400EC67B7 /* RemoveMealController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveMealController.swift; sourceTree = "<group>"; };
 		23BCBEB81DDD28D600212E9D /* eggplant-brownie-swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie-swift3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BCBEBB1DDD28D600212E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23BCBEBD1DDD28D600212E9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		23BCBEC01DDD28D600212E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23BCBEC21DDD28D600212E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23BCBEC51DDD28D600212E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23BCBEC71DDD28D600212E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +63,10 @@
 		23BCBED71DDD28D600212E9D /* eggplant-brownie-swift3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownie-swift3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BCBEDB1DDD28D600212E9D /* eggplant_brownie_swift3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownie_swift3UITests.swift; sourceTree = "<group>"; };
 		23BCBEDD1DDD28D600212E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BCBEEF1DDD2A6900212E9D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23BCBEF11DDD2CF700212E9D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		23BCBEF31DDD323C00212E9D /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		23BCBEF51DDD334000212E9D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23197FDE1E0DE70C00EC55D0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				23197FDF1E0DE72300EC55D0 /* Dao.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		23BCBEAF1DDD28D600212E9D = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +125,11 @@
 		23BCBEBA1DDD28D600212E9D /* eggplant-brownie-swift3 */ = {
 			isa = PBXGroup;
 			children = (
+				23197FDE1E0DE70C00EC55D0 /* data */,
+				23BCBEEC1DDD2A3300212E9D /* model */,
+				23BCBEED1DDD2A3300212E9D /* viewcontroller */,
+				23BCBEEE1DDD2A3300212E9D /* views */,
 				23BCBEBB1DDD28D600212E9D /* AppDelegate.swift */,
-				23BCBEBD1DDD28D600212E9D /* ViewController.swift */,
-				23BCBEBF1DDD28D600212E9D /* Main.storyboard */,
 				23BCBEC21DDD28D600212E9D /* Assets.xcassets */,
 				23BCBEC41DDD28D600212E9D /* LaunchScreen.storyboard */,
 				23BCBEC71DDD28D600212E9D /* Info.plist */,
@@ -123,6 +153,38 @@
 				23BCBEDD1DDD28D600212E9D /* Info.plist */,
 			);
 			path = "eggplant-brownie-swift3UITests";
+			sourceTree = "<group>";
+		};
+		23BCBEEC1DDD2A3300212E9D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				231657511DF79E1600CA7C00 /* AddMealDelegate.swift */,
+				23BCBEF31DDD323C00212E9D /* Meal.swift */,
+				23BCBEF51DDD334000212E9D /* Item.swift */,
+				2314E5A31DFDE4D100890BF0 /* AddItemDelegate.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		23BCBEED1DDD2A3300212E9D /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				2314E5A11DFDC19A00890BF0 /* NewItemViewController.swift */,
+				23BCBEEF1DDD2A6900212E9D /* ViewController.swift */,
+				231720941DEFA57E00302C8F /* MealTableViewController.swift */,
+				23BA5B0B1E0744F400EC67B7 /* RemoveMealController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		23BCBEEE1DDD2A3300212E9D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				23BCBEF11DDD2CF700212E9D /* Main.storyboard */,
+				2314E59C1DFDC0C600890BF0 /* NewItemViewController.xib */,
+				2333A7191E00C8A00053FF61 /* Alert.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +294,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BCBEF21DDD2CF700212E9D /* Main.storyboard in Resources */,
 				23BCBEC61DDD28D600212E9D /* LaunchScreen.storyboard in Resources */,
+				2314E59E1DFDC0C600890BF0 /* NewItemViewController.xib in Resources */,
 				23BCBEC31DDD28D600212E9D /* Assets.xcassets in Resources */,
-				23BCBEC11DDD28D600212E9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23BCBEBE1DDD28D600212E9D /* ViewController.swift in Sources */,
+				23BA5B0C1E0744F400EC67B7 /* RemoveMealController.swift in Sources */,
+				2333A71A1E00C8A00053FF61 /* Alert.swift in Sources */,
+				23197FE01E0DE72300EC55D0 /* Dao.swift in Sources */,
+				231720951DEFA57E00302C8F /* MealTableViewController.swift in Sources */,
+				231657521DF79E1600CA7C00 /* AddMealDelegate.swift in Sources */,
+				23BCBEF61DDD334000212E9D /* Item.swift in Sources */,
+				2314E5A41DFDE4D100890BF0 /* AddItemDelegate.swift in Sources */,
+				23BCBEF01DDD2A6900212E9D /* ViewController.swift in Sources */,
+				23BCBEF41DDD323C00212E9D /* Meal.swift in Sources */,
 				23BCBEBC1DDD28D600212E9D /* AppDelegate.swift in Sources */,
+				2314E5A21DFDC19A00890BF0 /* NewItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +368,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		23BCBEBF1DDD28D600212E9D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23BCBEC01DDD28D600212E9D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		23BCBEC41DDD28D600212E9D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -503,6 +567,7 @@
 				23BCBEE21DDD28D600212E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23BCBEE31DDD28D600212E9D /* Build configuration list for PBXNativeTarget "eggplant-brownie-swift3Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +576,7 @@
 				23BCBEE51DDD28D600212E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23BCBEE61DDD28D600212E9D /* Build configuration list for PBXNativeTarget "eggplant-brownie-swift3UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +585,7 @@
 				23BCBEE81DDD28D600212E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
